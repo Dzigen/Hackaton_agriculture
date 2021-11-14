@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-04-01" view-index="0" gantt-divider-location="378" resource-divider-location="300" version="3.0.2914" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:10" id="gantt-chart">
+        <field id="tpd3" name="Название" width="124" order="0"/>
+        <field id="tpd4" name="Дата начала" width="65" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="77" order="2"/>
+        <field id="tpd6" name="Длительность" width="52" order="3"/>
+        <field id="tpd1" name="Приоритет" width="56" order="4"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value=""/>
+        <option id="taskLabelLeft" value="resources"/>
+        <option id="taskLabelRight" value=""/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="210" order="0"/>
+        <field id="1" name="Стандартная роль" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="148" name="Промжуточная точка" color="#8cb6ce" meeting="true" start="2022-03-01" duration="0" complete="0" thirdDate="2021-08-02" thirdDate-constraint="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="234" type="2" difference="0" hardness="Rubber"/>
+            <depend id="236" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="0" name="Спонсоры" color="#8cb6ce" meeting="false" start="2022-03-01" duration="89" complete="0" thirdDate="2022-01-03" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Поиск спонсоров проекта]]>
+            </notes>
+            <depend id="139" type="2" difference="0" hardness="Rubber"/>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="234" name="Сбор базы потенциальных спонсоров" color="#8cb6ce" meeting="false" start="2022-03-01" duration="14" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="246" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="246" name="Обзвон потенциальных спонсоров" color="#8cb6ce" meeting="false" start="2022-03-21" duration="10" complete="0" thirdDate="2021-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="888" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="236" name="Подготовка выступления с презентацией идеи проекта" color="#8cb6ce" meeting="false" start="2022-03-01" duration="23" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="242" type="2" difference="0" hardness="Rubber"/>
+                <depend id="888" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="888" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2022-04-04" duration="0" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true">
+                <depend id="244" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="244" name="Организация встреч и презентация идеи проекта" color="#8cb6ce" meeting="false" start="2022-04-04" duration="13" complete="0" thirdDate="2022-03-22" thirdDate-constraint="0" expand="true">
+                <depend id="232" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="232" name="Подписание юридических документов со спонсорами" color="#8cb6ce" meeting="false" start="2022-04-21" duration="15" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="240" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="240" name="Формирование бюджета на онсове вкладов спонсоров" color="#8cb6ce" meeting="false" start="2022-05-12" duration="15" complete="0" thirdDate="2022-04-22" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="737" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="242" name="Формирование документа затрат на проект" color="#8cb6ce" meeting="false" start="2022-04-19" duration="29" complete="0" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="737" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="737" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2022-06-02" duration="0" complete="0" thirdDate="2022-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="238" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="238" name="Корректировка плана проекта в соответствии с бюджетом" color="#8cb6ce" meeting="false" start="2022-06-08" duration="18" complete="0" thirdDate="2022-05-26" thirdDate-constraint="0" expand="true">
+                <depend id="139" type="2" difference="0" hardness="Rubber"/>
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="139" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2022-07-04" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Rubber"/>
+            <depend id="30" type="2" difference="0" hardness="Rubber"/>
+            <depend id="7504" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="26" name="Точки Утилизации" color="#8cb6ce" meeting="false" start="2022-07-04" duration="110" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="true">
+            <notes>
+                <![CDATA[Формирование точек для утилизации]]>
+            </notes>
+            <depend id="144" type="2" difference="0" hardness="Rubber"/>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="144" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2022-12-05" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Rubber"/>
+            <depend id="7951" type="2" difference="0" hardness="Rubber"/>
+            <depend id="7953" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="28" name="Точки сбора" color="#8cb6ce" meeting="false" start="2022-12-05" duration="63" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Формирование мобильных и обособленных точек сбора ]]>
+            </notes>
+            <depend id="145" type="2" difference="0" hardness="Rubber"/>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="7951" name="Изучение местности региона" color="#8cb6ce" meeting="false" start="2022-12-05" duration="25" complete="0" thirdDate="2021-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7963" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7953" name="Расчёт имеющейся инфраструктуры" color="#8cb6ce" meeting="false" start="2022-12-05" duration="15" complete="0" thirdDate="2021-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="7963" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7963" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-01-09" duration="0" complete="0" thirdDate="2022-12-05" thirdDate-constraint="0" expand="true">
+                <depend id="7959" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7961" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7959" name="Опредление малонаселённых и отдалённых жилых пунктов" color="#8cb6ce" meeting="false" start="2023-01-09" duration="21" complete="0" thirdDate="2021-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7957" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7957" name="Формирование оптимальных маршрутов и расписаний передвижения мобильных пунктов сдачи опасных отходов" color="#8cb6ce" meeting="false" start="2023-02-07" duration="17" complete="0" thirdDate="2023-01-31" thirdDate-constraint="0" expand="true">
+                <depend id="145" type="2" difference="0" hardness="Rubber"/>
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7961" name="Определение оптимальных точек расстановки обособленных точек сбора отходов" color="#8cb6ce" meeting="false" start="2023-01-09" duration="20" complete="0" thirdDate="2021-11-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7955" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7955" name="Расстановка обособленных точек сбора отходов на местности" color="#8cb6ce" meeting="false" start="2023-02-06" duration="17" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                <depend id="145" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="145" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-03-02" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Rubber"/>
+            <depend id="1218" type="2" difference="0" hardness="Rubber"/>
+            <depend id="1224" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="29" name="Транспорт" color="#8cb6ce" meeting="false" start="2023-03-02" duration="66" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Подбор экологического транспорта для сбора отходов с точек]]>
+            </notes>
+            <depend id="146" type="2" difference="0" hardness="Rubber"/>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="1218" name="Формирование требований" color="#8cb6ce" meeting="false" start="2023-03-02" duration="11" complete="0" thirdDate="2023-06-07" thirdDate-constraint="0" expand="true">
+                <depend id="1220" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1220" name="Формирование базы тренспортных компаний" color="#8cb6ce" meeting="false" start="2023-03-17" duration="12" complete="0" thirdDate="2023-06-22" thirdDate-constraint="0" expand="true">
+                <depend id="1222" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1222" name="Обзвон транспортных компаний" color="#8cb6ce" meeting="false" start="2023-04-04" duration="7" complete="0" thirdDate="2021-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="1232" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1232" name="Назначение встреч и обсуждение комерческого предложения" color="#8cb6ce" meeting="false" start="2023-04-13" duration="12" complete="0" thirdDate="2023-07-11" thirdDate-constraint="0" expand="true">
+                <depend id="1226" type="2" difference="0" hardness="Rubber"/>
+                <depend id="1228" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1224" name="Разработка дизайна наклеек и рисунков на транспорт" color="#8cb6ce" meeting="false" start="2023-03-02" duration="13" complete="0" thirdDate="2023-06-07" thirdDate-constraint="0" expand="true">
+                <depend id="1234" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1226" name="Подписание договора с транспортной компанией" color="#8cb6ce" meeting="false" start="2023-05-01" duration="8" complete="0" thirdDate="2023-07-28" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="1230" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1228" name="Наём рабочих" color="#8cb6ce" meeting="false" start="2023-05-01" duration="8" complete="0" thirdDate="2023-07-28" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="1234" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1230" name="Оборудование трнаспорта" color="#8cb6ce" meeting="false" start="2023-05-11" duration="5" complete="0" thirdDate="2023-08-09" thirdDate-constraint="0" expand="true">
+                <depend id="1234" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1234" name="Формирование трнаспортной инфраструктуры" color="#8cb6ce" meeting="false" start="2023-05-18" duration="11" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true">
+                <depend id="146" type="2" difference="0" hardness="Rubber"/>
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="146" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-06-02" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Rubber"/>
+            <depend id="40" type="2" difference="0" hardness="Rubber"/>
+            <depend id="1248" type="2" difference="0" hardness="Rubber"/>
+            <depend id="1258" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="31" name="Рекламная компания" color="#8cb6ce" meeting="false" start="2023-06-02" duration="151" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Проведение рекламной акции для доведения информации до населения]]>
+            </notes>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="7863" name="Формирование основной идеи" color="#8cb6ce" meeting="false" start="2023-06-02" duration="36" complete="0" thirdDate="2021-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7859" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7869" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7936" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7936" name="Формирование сопутствующего дизайна распространяемой информации" color="#8cb6ce" meeting="false" start="2023-07-24" duration="35" complete="0" thirdDate="2021-12-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7874" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7869" name="Формирование лозунгов" color="#8cb6ce" meeting="false" start="2023-07-24" duration="35" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7874" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7859" name="Формирование информации на распространение" color="#8cb6ce" meeting="false" start="2023-07-24" duration="35" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7874" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7874" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-09-11" duration="0" complete="0" thirdDate="2023-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="7861" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7865" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7861" name="Привлечение органов власти для помощи в распространения информации" color="#8cb6ce" meeting="false" start="2023-09-11" duration="15" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true">
+                <depend id="7912" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7865" name="Создание и размещение плакатов в магазинах и людных местах" color="#8cb6ce" meeting="false" start="2023-09-11" duration="15" complete="0" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true">
+                <depend id="7912" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7912" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-10-02" duration="0" complete="0" thirdDate="2023-06-02" thirdDate-constraint="0" expand="true">
+                <depend id="7867" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7867" name="Периодическое обновление освещаемой информации" color="#8cb6ce" meeting="false" start="2023-10-02" duration="65" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="40" name="Партнёры" color="#8cb6ce" meeting="false" start="2023-06-02" duration="130" complete="0" thirdDate="2022-01-04" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Поиск партнеров для формирования акций и предложений приложения]]>
+            </notes>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="1248" name="Формирование потенциальной базы магазинов" color="#8cb6ce" meeting="false" start="2023-06-02" duration="38" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+                <depend id="1250" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1250" name="Обзвон магазинов" meeting="false" start="2023-07-26" duration="20" complete="0" expand="true">
+                <depend id="1265" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1258" name="Формирование списка желаемой продукции" color="#8cb6ce" meeting="false" start="2023-06-02" duration="40" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="1265" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1265" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-08-23" duration="0" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true">
+                <depend id="1252" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1252" name="Назначение встреч и обсуждение комерческих предложений с магазинами" color="#8cb6ce" meeting="false" start="2023-08-23" duration="24" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true">
+                <depend id="1256" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1256" name="Корректировка с продукцией предоставляемой магазинами" color="#8cb6ce" meeting="false" start="2023-09-26" duration="25" complete="0" thirdDate="2024-01-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="1254" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="1254" name="Подписание юридических документов с магазинами" color="#8cb6ce" meeting="false" start="2023-10-31" duration="23" complete="0" thirdDate="2024-02-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="30" name="Оборудование" color="#8cb6ce" meeting="false" start="2022-07-04" duration="239" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Проектирование и сборка обособленных точек сбора]]>
+            </notes>
+            <depend id="140" type="2" difference="0" hardness="Rubber"/>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="7504" name="Написание ТЗ" color="#8cb6ce" meeting="false" start="2022-07-04" duration="45" complete="0" thirdDate="2022-06-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7506" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7506" name="Обращение к производственным предприятиям" color="#8cb6ce" meeting="false" start="2022-09-05" duration="170" complete="0" thirdDate="2022-09-05" thirdDate-constraint="0" expand="true">
+                <depend id="7508" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="7508" name="Формирование инфраструктуры обособленных точек сбора" color="#8cb6ce" meeting="false" start="2023-05-01" duration="24" complete="0" thirdDate="2022-06-01" thirdDate-constraint="0" expand="true">
+                <depend id="140" type="2" difference="0" hardness="Strong"/>
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="140" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-06-02" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Rubber"/>
+            <depend id="6866" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="27" name="Приложение" color="#8cb6ce" meeting="false" start="2023-06-02" duration="128" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" priority="4" expand="false">
+            <notes>
+                <![CDATA[Создание мобильного приложения и ПО для обособленных точек сбора]]>
+            </notes>
+            <depend id="147" type="2" difference="0" hardness="Rubber"/>
+            <task id="6866" name="Написание ТЗ" color="#8cb6ce" meeting="false" start="2023-06-02" duration="25" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <depend id="6877" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="6877" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2023-07-07" duration="0" complete="0" thirdDate="2023-06-05" thirdDate-constraint="0" expand="true">
+                <depend id="6868" type="2" difference="0" hardness="Rubber"/>
+                <depend id="6870" type="2" difference="0" hardness="Rubber"/>
+                <depend id="6920" type="2" difference="0" hardness="Rubber"/>
+                <depend id="7487" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="6868" name="Реализация мобильного приложения" color="#8cb6ce" meeting="false" start="2023-07-07" duration="103" complete="0" thirdDate="2023-06-05" thirdDate-constraint="0" expand="false">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <task id="6920" name="Составление плана проекта" color="#8cb6ce" meeting="false" start="2023-07-07" duration="10" complete="0" thirdDate="2023-07-10" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="6930" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="6930" name="Составление спецификации требований" color="#8cb6ce" meeting="false" start="2023-07-21" duration="25" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="6928" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="6928" name="Составление документа проектирования" color="#8cb6ce" meeting="false" start="2023-08-25" duration="25" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="6926" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="6926" name="Кодирование" color="#8cb6ce" meeting="false" start="2023-09-29" duration="15" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="6922" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="6922" name="Тестирование" color="#8cb6ce" meeting="false" start="2023-10-20" duration="19" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
+                    <depend id="6924" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="6924" name="Написание руководства пользователя" color="#8cb6ce" meeting="false" start="2023-11-16" duration="9" complete="0" thirdDate="2023-11-17" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                </task>
+            </task>
+            <task id="6870" name="Реализация ПО в обособленные точки сбора" color="#8cb6ce" meeting="false" start="2023-07-07" duration="103" complete="0" thirdDate="2023-02-01" thirdDate-constraint="0" expand="false">
+                <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                <task id="7487" name="Составление плана проекта" color="#8cb6ce" meeting="false" start="2023-07-07" duration="10" complete="0" thirdDate="2023-07-10" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="7488" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="7488" name="Составление спецификации требований" color="#8cb6ce" meeting="false" start="2023-07-21" duration="25" complete="0" thirdDate="2023-07-24" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="7489" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="7489" name="Составление документа проектирования" color="#8cb6ce" meeting="false" start="2023-08-25" duration="25" complete="0" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="7490" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="7490" name="Кодирование" color="#8cb6ce" meeting="false" start="2023-09-29" duration="15" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="7491" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="7491" name="Тестирование" color="#8cb6ce" meeting="false" start="2023-10-20" duration="19" complete="0" thirdDate="2023-10-23" thirdDate-constraint="0" expand="true">
+                    <depend id="7492" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="7492" name="Написание руководства пользователя" color="#8cb6ce" meeting="false" start="2023-11-16" duration="9" complete="0" thirdDate="2023-11-17" thirdDate-constraint="0" expand="true">
+                    <depend id="147" type="2" difference="0" hardness="Rubber"/>
+                </task>
+            </task>
+        </task>
+        <task id="147" name="Промежуточная точка" color="#8cb6ce" meeting="true" start="2024-01-01" duration="0" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
